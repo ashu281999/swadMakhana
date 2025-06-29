@@ -1,2 +1,0 @@
-# swadMakhana
-About makhana
