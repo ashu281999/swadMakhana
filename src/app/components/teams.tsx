@@ -13,7 +13,7 @@ export default function OurTeam() {
     {
       name: 'Mukund Mishra',
       role: 'Product Manager',
-      image: '/images/mukund.jpeg',
+      image: '/images/mukund1.jpeg',
     },
     {
       name: 'Willie Hagel',
