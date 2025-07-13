@@ -22,7 +22,7 @@ export default function OurTeam() {
     },
     {
       name: 'Rachna Kumari',
-      role: 'Marketing Head',
+      role: 'HR Head',
       image: '/images/rachna.jpeg',
     },
   ]

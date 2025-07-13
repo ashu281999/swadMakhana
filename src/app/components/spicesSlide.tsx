@@ -6,13 +6,14 @@ import 'swiper/css/navigation'
 
 const slides = [
   {
-    image: '/images/makhana.jpg',
+
+    image: '/images/phool-makhana-2.jpeg',
     heading: 'Pure & Crunchy Makhana',
     subheading: 'Get 20% OFF on Your First Order!',
     coupon: 'MAKHANA20',
   },
   {
-    image: '/images/phool-makhana-2.jpeg',
+    image: '/images/makhana.jpg',
     heading: 'Healthy Snacking Starts Here',
     subheading: 'Roasted Makhana - Guilt-Free & Delicious',
     coupon: 'SNACKSMART',
@@ -47,7 +48,7 @@ export default function SpicesSlider() {
               <div className="absolute inset-0 bg-opacity-60 z-10"></div>
 
               <div className="text-center text-white z-20 px-6 max-w-3xl">
-                <h1 className="text-5xl sm:text-6xl font-extrabold font-[cursive] mb-4">
+                <h1 className="text-5xl sm:text-6xl text-amber-800 font-extrabold font-[cursive] mb-4">
                   {slide.heading}
                 </h1>
                 <h2 className="text-3xl text-yellow-400 font-bold mb-2">
