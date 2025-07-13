@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { FaFacebookF, FaPinterestP, FaInstagram, FaPhone, FaClock, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa'
 
 export default function Footer() {
@@ -81,11 +82,11 @@ export default function Footer() {
       <div className="border-t border-gray-600 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
         <p>© 2025 Waffy (password: buddha) Powered by Shopify</p>
         <div className="flex gap-4 mt-4 md:mt-0">
-          <img src="/images/visa.png" alt="visa" className="h-6" />
-          <img src="/images/mastercard.png" alt="mastercard" className="h-6" />
-          <img src="/images/amex.png" alt="amex" className="h-6" />
-          <img src="/images/paypal.png" alt="paypal" className="h-6" />
-          <img src="/images/discover.png" alt="discover" className="h-6" />
+          <Image width={30} height={20}  src="/images/visa.png" alt="visa" className="h-6" />
+          <Image  width={30} height={20} src="/images/mastercard.png" alt="mastercard" className="h-6" />
+          <Image  width={30} height={20} src="/images/amex.png" alt="amex" className="h-6" />
+          <Image  width={30} height={20} src="/images/paypal.png" alt="paypal" className="h-6" />
+          <Image  width={30} height={20} src="/images/discover.png" alt="discover" className="h-6" />
         </div>
       </div>
 

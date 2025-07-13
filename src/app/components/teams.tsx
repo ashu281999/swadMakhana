@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { FaFacebookF, FaTwitter, FaPinterestP, FaYoutube } from 'react-icons/fa'
 
 export default function OurTeam() {
@@ -43,10 +44,13 @@ export default function OurTeam() {
           <div key={idx} className="bg-white border rounded overflow-hidden">
             {/* Top colored area */}
             <div className="bg-yellow-400 py-6 flex justify-center">
-              <img
+              <Image
+                width={128}
+                height={128}
                 src={member.image}
                 alt={member.name}
                 className="w-32 h-32 object-cover rounded-full border-4 border-[#A04600]"
+                unoptimized
               />
             </div>
 

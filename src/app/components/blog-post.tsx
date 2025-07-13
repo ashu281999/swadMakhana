@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image'
 import { FaUser, FaCalendarAlt, FaComments, FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 
 export default function BlogSection() {
@@ -25,7 +26,7 @@ export default function BlogSection() {
         {/* Blog Content */}
         <div className="lg:col-span-1 lg:col-start-2 flex flex-col lg:flex-row items-center gap-6">
           {/* Blog Image */}
-          <img
+          <Image
             src="https://morbiwalasweets.com/cdn/shop/files/3_b888385e-c152-4881-ae91-a99e2ed44e7f.png?v=1690317782"
             alt="Black pepper"
             className="rounded-md w-full lg:w-1/2 object-cover shadow"

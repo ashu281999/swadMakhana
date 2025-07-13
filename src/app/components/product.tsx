@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Product() {
   const products = [
     {
@@ -46,10 +48,13 @@ export default function Product() {
             key={index}
             className="bg-white rounded-lg shadow p-4 flex flex-col items-center"
           >
-            <img
+            <Image
               src={item.image}
               alt={item.title}
+              width={300}
+              height={200}
               className="rounded-md w-full h-48 object-cover mb-4"
+              unoptimized
             />
             <h3 className="text-xl font-bold font-[cursive] mb-2 text-gray-800">
               {item.title}
