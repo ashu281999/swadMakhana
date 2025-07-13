@@ -18,7 +18,7 @@ export default function Footer() {
           <div className="flex gap-4 mt-6 text-xl">
             <FaFacebookF />
             <FaPinterestP />
-            <FaInstagram />
+           <a className='cursor-pointer' href='https://www.instagram.com/swad_e_makhana?igsh=cmFma2o0dXAzaXVn' target='_blank'><FaInstagram /></a> 
           </div>
         </div>
 

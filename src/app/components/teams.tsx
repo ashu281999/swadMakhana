@@ -11,19 +11,19 @@ export default function OurTeam() {
       image: '/images/suraj.jpeg',
     },
     {
+      name: 'Rahul Yadav',
+      role: 'Co founder and Head of logistics and operations',
+      image: '/images/rahul.jpeg',
+    },
+   {
       name: 'Mukund Mishra',
       role: 'Product Manager',
       image: '/images/mukund1.jpeg',
     },
     {
-      name: 'Willie Hagel',
-      role: 'Customer support',
-      image: 'https://media.istockphoto.com/id/1399565382/photo/young-happy-mixed-race-businessman-standing-with-his-arms-crossed-working-alone-in-an-office.jpg?s=612x612&w=0&k=20&c=buXwOYjA_tjt2O3-kcSKqkTp2lxKWJJ_Ttx2PhYe3VM=',
-    },
-    {
-      name: 'Soraya Rolston',
-      role: 'Manager',
-      image: 'https://media.istockphoto.com/id/1399565382/photo/young-happy-mixed-race-businessman-standing-with-his-arms-crossed-working-alone-in-an-office.jpg?s=612x612&w=0&k=20&c=buXwOYjA_tjt2O3-kcSKqkTp2lxKWJJ_Ttx2PhYe3VM=',
+      name: 'Rachna Kumari',
+      role: 'Marketing Head',
+      image: '/images/rachna.jpeg',
     },
   ]
 
