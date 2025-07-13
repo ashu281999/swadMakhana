@@ -6,14 +6,14 @@ import { FaFacebookF, FaTwitter, FaPinterestP, FaYoutube } from 'react-icons/fa'
 export default function OurTeam() {
   const team = [
     {
-      name: 'Ethelyn Hilaire',
-      role: 'CEO',
-      image: 'https://media.istockphoto.com/id/1399565382/photo/young-happy-mixed-race-businessman-standing-with-his-arms-crossed-working-alone-in-an-office.jpg?s=612x612&w=0&k=20&c=buXwOYjA_tjt2O3-kcSKqkTp2lxKWJJ_Ttx2PhYe3VM=',
+      name: 'Suraj jha',
+      role: 'Founder/CEO',
+      image: '/images/suraj.jpeg',
     },
     {
-      name: 'Timmy Bard',
+      name: 'Mukund Mishra',
       role: 'Product Manager',
-      image: 'https://media.istockphoto.com/id/1399565382/photo/young-happy-mixed-race-businessman-standing-with-his-arms-crossed-working-alone-in-an-office.jpg?s=612x612&w=0&k=20&c=buXwOYjA_tjt2O3-kcSKqkTp2lxKWJJ_Ttx2PhYe3VM=',
+      image: '/images/mukund.jpeg',
     },
     {
       name: 'Willie Hagel',
@@ -49,7 +49,7 @@ export default function OurTeam() {
                 height={128}
                 src={member.image}
                 alt={member.name}
-                className="w-32 h-32 object-cover rounded-full border-4 border-[#A04600]"
+                className="w-36 h-36 rounded-full border-4 border-[#A04600]"
                 unoptimized
               />
             </div>
