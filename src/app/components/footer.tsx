@@ -9,12 +9,12 @@ export default function Footer() {
       <div className="grid grid-cols-1 md:grid-cols-5 gap-10 mb-8">
         {/* About Us */}
         <div>
-          <h3 className="text-yellow-400 text-2xl font-bold mb-4">About us</h3>
-          <p className="text-gray-300">
-            Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt risus ac,
-            consequat velit.
-          </p>
-          <p className="mt-4 text-yellow-400 font-semibold cursor-pointer">Read More</p>
+     <h3 className="text-yellow-400 text-2xl font-bold mb-4">About Us</h3>
+      <p className="text-gray-300">
+        <span className="font-semibold text-white">Swad E-Makhana</span> brings you premium-quality fox nuts (makhana) sourced directly from the farms of Bihar. 
+        We are committed to offering healthy, tasty, and natural snacks that fit every lifestyle. 
+        With a focus on purity, freshness, and tradition, every pack is a promise of quality and satisfaction.
+      </p>
           <div className="flex gap-4 mt-6 text-xl">
             <FaFacebookF />
             <FaPinterestP />
@@ -72,7 +72,10 @@ export default function Footer() {
               <FaClock /> 9.30AM - 7.30PM
             </li>
             <li className="flex items-center gap-2">
-              <FaEnvelope /> mail@example.com
+              <FaEnvelope />
+              <a href="mailto:swad.e.makhana@gmail.com" className="hover:underline">
+                swad.e.makhana@gmail.com
+              </a>
             </li>
           </ul>
         </div>
@@ -80,7 +83,7 @@ export default function Footer() {
 
       {/* Payment & Footer Bottom */}
       <div className="border-t border-gray-600 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-        <p>© 2025 Waffy (password: buddha) Powered by Shopify</p>
+        <p>© 2025 Powered by swad-e-makhana</p>
         <div className="flex gap-4 mt-4 md:mt-0">
           <Image width={30} height={20}  src="/images/visa.png" alt="visa" className="h-6" />
           <Image  width={30} height={20} src="/images/mastercard.png" alt="mastercard" className="h-6" />
