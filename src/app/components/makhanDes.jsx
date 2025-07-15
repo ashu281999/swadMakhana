@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function MakhanaFeature() {
   return (
-    <section className=" ps-24 py-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-center bg-gray-200">
+    <section className=" md:ps-24 py-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-center bg-gray-200">
       {/* Text Content */}
       <div>
         <h2 className="text-3xl md:text-4xl font-extrabold text-[#b95000] mb-4">
