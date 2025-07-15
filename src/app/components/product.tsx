@@ -29,8 +29,8 @@ export default function Product() {
   ]
 
   return (
-    <section className="py-20 bg-gray-50 text-center">
-      <h2 className="text-4xl font-extrabold text-[#A04600] font-[cursive] mb-2">
+    <section className="py-20 bg-gray-50 text-center" id="products">
+      <h2 className="text-4xl font-extrabold text-[#A04600]  mb-2">
         Premium Makhana Collection
       </h2>
       <p className="text-gray-600 text-lg mb-4">
@@ -56,7 +56,7 @@ export default function Product() {
               className="rounded-md w-full h-48 object-cover mb-4"
               unoptimized
             />
-            <h3 className="text-xl font-bold font-[cursive] mb-2 text-gray-800">
+            <h3 className="text-xl font-bold mb-2 text-gray-800">
               {item.title}
             </h3>
             <p className="text-sm text-gray-600 mb-4">{item.description}</p>

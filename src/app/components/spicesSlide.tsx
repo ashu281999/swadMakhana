@@ -28,7 +28,7 @@ const slides = [
 
 export default function SpicesSlider() {
   return (
-    <div className="relative w-full">
+    <div className="relative w-full mt-8">
       <Swiper
         navigation
         autoplay={{ delay: 4000 }}
@@ -48,7 +48,7 @@ export default function SpicesSlider() {
               <div className="absolute inset-0 bg-opacity-60 z-10"></div>
 
               <div className="text-center text-white z-20 px-6 max-w-3xl">
-                <h1 className="text-5xl sm:text-6xl text-amber-800 font-extrabold font-[cursive] mb-4">
+                <h1 className="text-5xl sm:text-6xl text-amber-800 font-extrabold mb-4">
                   {slide.heading}
                 </h1>
                 <h2 className="text-3xl text-yellow-400 font-bold mb-2">

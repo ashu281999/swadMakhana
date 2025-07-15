@@ -6,7 +6,7 @@ export default function BlogSection() {
   return (
     <section className="py-20 bg-white text-center">
       {/* Section Title */}
-      <h2 className="text-4xl font-extrabold text-[#A04600] font-[cursive] mb-2">Blog Post</h2>
+      <h2 className="text-4xl font-extrabold text-[#A04600]  mb-2">Blog Post</h2>
       <p className="text-gray-600 text-lg mb-4">
         Suspendisse potenti nullam ac tortor vitae purus faucibus orn.
       </p>
@@ -34,7 +34,7 @@ export default function BlogSection() {
 
           {/* Blog Info */}
           <div className="text-left space-y-2">
-            <h3 className="text-2xl font-bold font-[cursive] text-gray-800">Black pepper powder</h3>
+            <h3 className="text-2xl font-bold  text-gray-800">Black pepper powder</h3>
             <div className="flex items-center text-sm text-gray-500 gap-4 flex-wrap">
               <span className="flex items-center gap-1"><FaUser className="text-[#A04600]" /> By Ram M</span>
               <span className="flex items-center gap-1"><FaCalendarAlt className="text-[#A04600]" /> November 13, 2018</span>

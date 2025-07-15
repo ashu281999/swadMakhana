@@ -28,8 +28,8 @@ export default function OurTeam() {
   ]
 
   return (
-    <section className="py-20 bg-white text-center">
-      <h2 className="text-4xl font-extrabold text-[#A04600] font-[cursive] mb-2">Our Team</h2>
+    <section className="py-20 bg-white text-center" id='about'>
+      <h2 className="text-4xl font-extrabold text-[#A04600]  mb-2">Our Team</h2>
       <p className="text-gray-600 text-lg mb-4">
              The People Behind Your Favorite Makhana
       </p>
@@ -56,7 +56,7 @@ export default function OurTeam() {
 
             {/* Info */}
             <div className="p-4">
-              <h3 className="text-xl font-bold font-[cursive] text-[#A04600]">{member.name}</h3>
+              <h3 className="text-xl font-bold text-[#A04600]">{member.name}</h3>
               <p className="text-gray-700 text-sm mb-3">{member.role}</p>
               <div className="flex justify-center gap-4 text-gray-800 text-lg">
                 <FaFacebookF className="hover:text-[#A04600] cursor-pointer" />

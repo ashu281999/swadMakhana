@@ -3,25 +3,26 @@ import React from 'react'
 import { FaUndo, FaShippingFast, FaHeadset } from 'react-icons/fa'
 export default function Policy() {
  const features = [
-    {
-      icon: <FaUndo />,
-      title: 'Money Back Guarantee',
-      description:
-        'Consecteur adipisicing elitesd do eiusmod tempor incididunt ulabore et dolore ulabore et dolore dolor sit amet.',
-    },
-    {
-      icon: <FaShippingFast />,
-      title: 'Free Shipping',
-      description:
-        'Sit amet dolor consectetur adipisicing elitesd do eiusmod tempor incididunt ulabore et dolore ulabore et dolore.',
-    },
-    {
-      icon: <FaHeadset />,
-      title: '24/7 Customer Service',
-      description:
-        'Dolor sit amet consectetur adipisicing elitesd do eiusmod tempor incididunt ulabore et dolore ulabore et dolore.',
-    },
-  ]
+  {
+    icon: <FaUndo />,
+    title: 'Money Back Guarantee',
+    description:
+      "Shop with confidence! If you're not satisfied with your purchase, we offer a full refund within 7 days—no questions asked.",
+  },
+  {
+    icon: <FaShippingFast />,
+    title: 'Free Shipping',
+    description:
+      'Enjoy fast and free delivery on all orders—no minimum purchase required. Get your items delivered right to your doorstep.',
+  },
+  {
+    icon: <FaHeadset />,
+    title: '24/7 Customer Service',
+    description:
+      'Need help? Our dedicated support team is available 24/7 to assist you with any questions, issues, or concerns you may have.',
+  },
+];
+
 
   return (
     <section className="py-20 bg-white">
@@ -36,7 +37,7 @@ export default function Policy() {
                 {feature.icon}
               </div>
             </div>
-            <h3 className="text-[#A04600] font-bold text-lg mt-2 mb-2 font-[cursive]">
+            <h3 className="text-[#A04600] font-bold text-lg mt-2 mb-2 ">
               {feature.title}
             </h3>
             <p className="text-gray-700 text-sm">{feature.description}</p>
